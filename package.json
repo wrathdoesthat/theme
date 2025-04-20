@@ -1,0 +1,21 @@
+{
+  "name": "wraththeme",
+  "displayName": "WrathTheme",
+  "description": "Theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "wraththeme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/wraththeme-color-theme.json"
+      }
+    ]
+  }
+}
