@@ -1,74 +1,83 @@
 {
 	"name": "wraththeme",
 	"colors": {
-		"editor.background": "#1c1e23",
+		"editor.background": "#161616",
 		"editor.foreground": "#eeffff",
-		"sideBar.background": "#1c1e23",
-		"tab.inactiveBackground":"#16181b",
-		"editorGroupHeader.tabsBackground":"#16181b",
-		"editorGroupHeader.noTabsBackground":"#16181b",
-		"titleBar.inactiveBackground":"#16181b",
-		"titleBar.activeBackground":"#16181b",
-		"activityBar.background":"#1b1d22",
-		"activityBarBadge.background": "#007acc",
-		"statusBar.background":"#31423d",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"sideBar.background": "#161616",
+		"tab.inactiveBackground":"#111111",
+		"editorGroupHeader.tabsBackground":"#111111",
+		"editorGroupHeader.noTabsBackground":"#111111",
+		"titleBar.inactiveBackground":"#111111",
+		"titleBar.activeBackground":"#111111",
+		"activityBar.background":"#141414",
+		"activityBarBadge.background": "#72a4bb",
+		"statusBar.background":"#2b2d30",
+		"sideBarTitle.foreground": "#bbbbbb",
 	},
 	"tokenColors": [
 		{
 			"scope": "source",
 			"settings": {
-				"foreground": "#e9f7e9"
+				"foreground": "#f6ffff"
 			}
 		},
 		{
 			"scope": "keyword.control",
 			"settings": {
-				"foreground": "#def0d9",
-				"fontStyle": "bold"
+				"foreground": "#d9f0e7",
 			}
 		},
 		{
 			"scope": "entity.name.function",
 			"settings": {
-				"foreground": "#98cfbf",
+				"foreground": "#c0cadb",
 			}
 		},
 		{
 			"scope": "support.function.builtin",
 			"settings": {
-				"foreground": "#98cfbf",
+				"foreground": "#c0d0db",
 			}
 		},
 		{
 			"scope": ["support.type", "storage.type", "entity.name.type"],
 			"settings": {
-				"foreground": "#cbd89c"
+				"foreground": "#add2d3"
 			}
 		},
 		{
 			"scope": "string.quoted",
 			"settings": {
-				"foreground": "#acdaac"
+				"foreground": "#bcd8cf"
 			}
 		},
 		{
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#c0ecdf"
+				"foreground": "#add2d3"
 			}
 		},
 		{
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#c0df87"
+				"foreground": "#adc4da"
 			}
 		},
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#ddf3ef"
+				"foreground": "#dcf7f4"
 			}
-		}
+		},
+
+		// XML tags 
+		{
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#add2d3"
+			}
+		},
+
 	]
+	
 }
