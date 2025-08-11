@@ -18,7 +18,7 @@
 		{
 			"scope": "source",
 			"settings": {
-				"foreground": "#f6ffff"
+				"foreground": "#f9faf6"
 			}
 		},
 		{
@@ -67,6 +67,14 @@
 			"scope": "comment",
 			"settings": {
 				"foreground": "#dcf7f4"
+			}
+		},
+
+		// # Directives
+		{
+			"scope": "entity.name.tag.odin",
+			"settings": {
+				"foreground": "#D9F0E7",
 			}
 		},
 
