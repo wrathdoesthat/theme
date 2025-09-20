@@ -1,48 +1,48 @@
 {
-	"name": "wraththeme",
+	"name": "wraththeme old",
 	"colors": {
-		"editor.background": "#111f22",
+		"editor.background": "#161616",
 		"editor.foreground": "#eeffff",
-		"sideBar.background": "#111f22",
-		"tab.inactiveBackground":"#0c171a",
-		"editorGroupHeader.tabsBackground":"#0c171a",
-		"editorGroupHeader.noTabsBackground":"#0c171a",
-		"titleBar.inactiveBackground":"#0c171a",
-		"titleBar.activeBackground":"#0c171a",
-		"activityBar.background":"#0e1a1d",
-		"activityBarBadge.background": "#15292e",
-		"statusBar.background":"#0e1a1d",
+		"sideBar.background": "#161616",
+		"tab.inactiveBackground":"#111111",
+		"editorGroupHeader.tabsBackground":"#111111",
+		"editorGroupHeader.noTabsBackground":"#111111",
+		"titleBar.inactiveBackground":"#111111",
+		"titleBar.activeBackground":"#111111",
+		"activityBar.background":"#141414",
+		"activityBarBadge.background": "#72a4bb",
+		"statusBar.background":"#2b2d30",
 		"sideBarTitle.foreground": "#bbbbbb",
 	},
 	"tokenColors": [
 		{
 			"scope": "source",
 			"settings": {
-				"foreground": "#eaf5f3"
+				"foreground": "#f9faf6"
 			}
 		},
 		{
 			"scope": "keyword.control",
 			"settings": {
-				"foreground": "#d9f0e0",
+				"foreground": "#d9f0e7",
 			}
 		},
 		{
 			"scope": "entity.name.function",
 			"settings": {
-				"foreground": "#d3dbc0",
+				"foreground": "#c0cadb",
 			}
 		},
 		{
 			"scope": "support.function.builtin",
 			"settings": {
-				"foreground": "#d3dbc0",
+				"foreground": "#c0d0db",
 			}
 		},
 		{
 			"scope": ["support.type", "storage.type", "entity.name.type"],
 			"settings": {
-				"foreground": "#b0d3da"
+				"foreground": "#add2d3"
 			}
 		},
 		{
@@ -54,34 +54,27 @@
 		{
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#add3b5"
+				"foreground": "#add2d3"
 			}
 		},
 		{
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#addad0"
+				"foreground": "#adc4da"
 			}
 		},
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#80a1a3"
+				"foreground": "#dcf7f4"
 			}
 		},
-		{
-			"scope": "entity.name.type.module.odin",
-			"settings": {
-				"foreground": "#d9f0e7",
-			}
-		},
-
 
 		// # Directives
 		{
 			"scope": "entity.name.tag.odin",
 			"settings": {
-				"foreground": "#d9f0e7",
+				"foreground": "#D9F0E7",
 			}
 		},
 
