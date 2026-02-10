@@ -14,13 +14,8 @@
       {
         "label": "wraththeme",
         "uiTheme": "vs-dark",
-        "path": "./themes/wraththeme-color-theme.json"
+        "path": "./themes/wraththeme.json"
       },
-      {
-        "label": "wraththeme old",
-        "uiTheme": "vs-dark",
-        "path": "./themes/wraththeme-color-theme-old.json"
-      }
     ]
   }
 }

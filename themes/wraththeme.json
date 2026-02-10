@@ -1,0 +1,98 @@
+{
+	"name": "wraththeme",
+	"colors": {
+		"editor.background": "#101414",
+		"editor.foreground": "#eeffff",
+		"sideBar.background": "#101414",
+		"tab.inactiveBackground":"#0e1111",
+		"editorGroupHeader.tabsBackground":"#0e1111",
+		"editorGroupHeader.noTabsBackground":"#0e1111",
+		"titleBar.inactiveBackground":"#0e1111",
+		"titleBar.activeBackground":"#0e1111",
+		"activityBar.background":"#0e1111",
+		"activityBarBadge.background": "#0e1111",
+		"statusBar.background":"#0e1111",
+		"sideBarTitle.foreground": "#bbbbbb",
+	},
+	"tokenColors": [
+		{
+			"scope": "source",
+			"settings": {
+				"foreground": "#ecf2f3"
+			}
+		},
+		{
+			"scope": ["keyword.control", "keyword.other.nim"],
+			"settings": {
+				"foreground": "#d9ebeb",
+			}
+		},
+		{
+			"scope": ["entity.name.function", "support.function.builtin", "support.function.any-method"],
+			"settings": {
+				"foreground": "#c3e4de",
+			}
+		},
+		{
+			"scope": ["support.type", "storage.type", "entity.name.type"],
+			"settings": {
+				"foreground": "#c5e1f3"
+			}
+		},
+		{
+			"scope": "string.quoted",
+			"settings": {
+				"foreground": "#d4eee0"
+			}
+		},
+		{
+			"scope": "keyword.operator",
+			"settings": {
+				"foreground": "#ecf2f3"
+			}
+		},
+		{
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#d4eee0"
+			}
+		},
+		{
+			"scope": "comment",
+			"settings": {
+				"foreground": "#90ac92"
+			}
+		},
+		{
+			"scope": "keyword.context",
+			"settings": {
+				"foreground": "#d7f7d1",
+			}
+		},
+		{
+			"scope": "entity.name.type.module.odin",
+			"settings": {
+				"foreground": "#b8d6e4",
+			}
+		},
+
+
+		// # Directives
+		{
+			"scope": "entity.name.tag.odin",
+			"settings": {
+				"foreground": "#b8d6e4",
+			}
+		},
+
+		// XML tags 
+		{
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#b8d6e4"
+			}
+		},
+
+	]
+	
+}
