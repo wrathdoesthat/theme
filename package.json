@@ -15,7 +15,7 @@
         "label": "wraththeme",
         "uiTheme": "vs-dark",
         "path": "./themes/wraththeme.json"
-      },
+      }
     ]
   }
 }
