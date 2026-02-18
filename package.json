@@ -12,6 +12,11 @@
   "contributes": {
     "themes": [
       {
+        "label": "wraththeme old",
+        "uiTheme": "vs-dark",
+        "path": "./themes/wraththemeold.json"
+      },
+      {
         "label": "wraththeme",
         "uiTheme": "vs-dark",
         "path": "./themes/wraththeme.json"
