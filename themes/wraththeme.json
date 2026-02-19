@@ -1,4 +1,6 @@
 {
+	"$schema": "vscode://schemas/color-theme",
+	"type": "dark",
 	"name": "wraththeme",
 	"colors": {
 		"editor.background": "#101010",
@@ -12,7 +14,27 @@
 		"activityBar.background":"#0e0e0e",
 		"activityBarBadge.background": "#0e0e0e",
 		"statusBar.background":"#0e0e0e",
+		"statusBar.noFolderBackground": "#0e0e0e",
 		"sideBarTitle.foreground": "#bbbbbb",
+		"git.blame.editorDecorationForeground": "#969696",
+		"gitDecoration.addedResourceForeground": "#81b88b",
+		"gitDecoration.conflictingResourceForeground": "#e4676b",
+		"gitDecoration.deletedResourceForeground": "#39c763",
+		"gitDecoration.ignoredResourceForeground": "#8c8c8c",
+		"gitDecoration.modifiedResourceForeground": "#f8efc8",
+		"gitDecoration.renamedResourceForeground": "#73c991",
+		"gitDecoration.stageDeletedResourceForeground": "#c74e39",
+		"gitDecoration.stageModifiedResourceForeground": "#e2c08d",
+		"gitDecoration.submoduleResourceForeground": "#8db9e2",
+		"gitDecoration.untrackedResourceForeground": "#88bb9a",
+		"editorGutter.addedBackground": "#E9C0B4",
+		"editorGutter.addedSecondaryBackground": "#243f01",
+		"editorGutter.modifiedBackground": "#EEEBD3",
+		"editor.selectionBackground": "#5e4d4d",
+		"editorLineNumber.activeForeground": "#E9C0B4",
+		"editorLineNumber.foreground": "#858585",
+		"icon.foreground": "#c5c5c5",
+		"editorGutter.deletedBackground": "#E9C0B4"
 	},
 	"tokenColors": [
 		{
